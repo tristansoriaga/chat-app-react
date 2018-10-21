@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class NewRoomForm extends Component {
   render() {
-    return <div>NewRoomForm</div>;
+    return <div className="new-room-form">NewRoomForm</div>;
   }
 }
 

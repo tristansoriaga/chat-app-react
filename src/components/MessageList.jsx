@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class MessageList extends Component {
   render() {
-    return <div>MessageList</div>;
+    return <div className="message-list">MessageList</div>;
   }
 }
 
