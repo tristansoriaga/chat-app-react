@@ -22,7 +22,7 @@ class MessageList extends Component {
   render() {
     return (
       <div className="message-list">
-        {DUMMY_DATA.map(message => (
+        {this.props.messages.map(message => (
           <div className="message" key={message.id}>
             <p className="message-username">{message.senderId}</p>
             <p className="message-text">{message.text}</p>
